@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/*BAGIAN HEADER */
+header {
+    padding: 40px;
+    padding-right: 40%;
+    background-image: linear-gradient(hsl(10, 99%, 75%),hsl(170, 30%, 54%));
+}
+
+header h1{
+    font: bold 40px sans-serif;
+    text-shadow: 1px 1.5px 1px white;
+
+}
+
+header h4 {
+    font:  17px sans-serif;
+    text-shadow: 2px 1.5px 1px white;
+}
+.header {
+    text-align: right;
+    padding-top: 20px;
+}
+/*BAGIAN NAVIGASI*/
+nav {
+
+    box-sizing: border-box;
+    background-color: #007D73 ;
+    padding: 20px;
+}
+
+nav ul li{
+    padding-left: 15px;
+    display: inline;
+}
+nav a{
+    color: hsl(10, 99%, 75%);
+    text-decoration: none;
+    font: 15px sans-serif;
+}
+
+nav a:hover{
+    font: bold 15px sans-serif;
+    color: #FF5901;
+}
+
+main{
+    padding: 30px;
+}
+
+/*JANGAN DI GANGGU*/
+article {
+    margin-left: 10px;
+    padding-right: 30px;
+    width: 73%;
+    box-sizing: border-box;
+    float: left;
+}
+
+/*JANGAN DI GANGGU*/
+
+section{
+    box-shadow: 1px 5px 8px #14795E, 0 -1px 3px gray ;
+    margin-bottom: 20px;
+    padding: 0 20px 20px;
+}
+
+.artikel-judul{
+    padding: 30px 20px 5px 0 ;
+    position: relative;
+    color: #007D73;
+}
+
+.artikel-gambar {
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 20%;
+}
+.artikel-gambar:hover{
+    margin: -10px -35px -20px ;
+    width: 107%;
+    transition-duration: 0.5s;
+}
+.artikel-text{
+    font: 15px Arial sans-serif;
+    text-indent: 3rem;
+    text-align: justify;
+    position: relative;
+    z-index: -999;
+}
+
+
+section h3{
+    font: bold 20px Arial;
+    padding-bottom: 10px;
+}
+section p{
+    padding-top: 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+aside .table-nama{
+    font: bold 20px Arial;
+}
+aside {
+    box-shadow: 0 4px 5px #14795E, 0 -1px 3px gray ;
+    padding: 20px 20px 20px;
+    margin-left: 73%;
+    box-sizing: border-box;
+}
+
+table {
+   text-align: left;
+}
+thead{
+    color: #00A899;
+}
+
+.table-nama{
+    font: bold 0.9rem sans-serif;
+}
+
+.judul-tabel{
+    font: bold 0.8rem sans-serif;
+    padding: 10px 0;
+}
+
+footer{
+    background-color: #007D73 ;
+    padding: 20PX;
+    text-align: center;
+    font-family: sans-serif;
+    color: #ff6d00;
+}
